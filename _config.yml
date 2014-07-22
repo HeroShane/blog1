@@ -1,0 +1,35 @@
+# Dependencies
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: pygments
+gems:
+  - jemoji
+  - jekyll-sitemap
+
+# Permalinks
+permalink: /:year/:month/:day/:title
+
+# Setup
+title: Shane Blog
+tagline: '事关技术' & '事关风花雪月'
+description: '这是shane的博客<a href="#" target="_blank">@...</a>，关注<a href="/tag/#tmp1">tmp1</a>，<a href="/category/#tmp2">tmp2</a>以及<a href="/category/#tmp3">tmp3</a>。'
+url: http://heroshane.github.io/technology
+domain: heroshane.github.io/technology
+twitterID: HeroShane
+timezone: Asia/Shanghai
+subscribe: http://heroshane.github.io/technology/atom.xml
+exclude: [ README.md, newpost.rb, CNAME ]
+baseurl: "/"
+toggleicon: /imges/toggle.png
+
+author:
+  name:           'Shane'
+  url:            http://www.zuidaima.com/user/1635099145881600/share.htm
+  email:		  heroshanezky@gmail.com
+
+paginate:         5
+
+github:
+  repo:           https://github.com/HeroShane
+  githubEditBaseURL: https://github.com/HeroShane
