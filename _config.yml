@@ -14,11 +14,11 @@ permalink: /:year/:month/:day/:title
 title: Shane Blog
 tagline: '事关技术' & '事关风花雪月'
 description: '这是shane的博客<a href="#" target="_blank">@...</a>，关注<a href="/tag/#tmp1">tmp1</a>，<a href="/category/#tmp2">tmp2</a>以及<a href="/category/#tmp3">tmp3</a>。'
-url: http://heroshane.github.io/technology
-domain: heroshane.github.io/technology
+url: http://heroshane.github.io/blog1
+domain: heroshane.github.io/blog1
 twitterID: HeroShane
 timezone: Asia/Shanghai
-subscribe: http://heroshane.github.io/technology/atom.xml
+subscribe: http://heroshane.github.io/blog1/atom.xml
 exclude: [ README.md, newpost.rb, CNAME ]
 baseurl: "/"
 toggleicon: /imges/toggle.png
