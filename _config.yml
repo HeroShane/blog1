@@ -12,7 +12,7 @@ permalink: /:year/:month/:day/:title
 
 # Setup
 title: Shane Blog
-tagline: '事关技术' & '事关风花雪月'
+tagline: 'just a blog'
 description: '这是shane的博客<a href="#" target="_blank">@...</a>，关注<a href="/tag/#tmp1">tmp1</a>，<a href="/category/#tmp2">tmp2</a>以及<a href="/category/#tmp3">tmp3</a>。'
 url: http://heroshane.github.io/blog1
 domain: heroshane.github.io/blog1
