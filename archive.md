@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archives
-permalink: /archive/
+permalink: archive/
 ---
 {% assign post_year1 = "" %}
 {% for post in site.posts %}

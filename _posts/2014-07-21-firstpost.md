@@ -15,7 +15,7 @@ tags:
 
 文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要
 
-![]({{ site.baseurl }}/images/2014-07-22-firstimg.jpg)
+![]({{ site.baseurl }}images/2014-07-22-firstimg.jpg)
 
 插入图片
 
@@ -49,7 +49,7 @@ sleep 1200; osascript -e 'display notification "赶快走开" with title "休息
 ```
 1200的单位是秒，即20分钟。
 
-<img src="{{ site.baseurl }}/images/2014-07-22-secondimg.jpg" width="350">
+<img src="{{ site.baseurl }}images/2014-07-22-secondimg.jpg" width="350">
 
 接下来可以把这个命令写入[dotfiles](https://heroshane.com)，方便的定制时间，显示文字以及声音。
 

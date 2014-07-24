@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Apps
-permalink: /study/
+permalink: study/
 ---
 * [...](#) ... ...
 

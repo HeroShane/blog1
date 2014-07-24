@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tags
-permalink: /tag/
+permalink: tag/
 ---
 {% for tag in site.tags %}[{{ tag | first }}](#{{ tag | first }}) / {% endfor %}
 

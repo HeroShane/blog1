@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Categories
-permalink: /category/
+permalink: category/
 ---
 {% for category in site.categories %}
 	[{{ category | first }}](#{{ category | first }}) / 
