@@ -20,7 +20,7 @@ twitterID: HeroShane
 timezone: Asia/Shanghai
 subscribe: http://heroshane.github.io/blog1/atom.xml
 exclude: [ README.md, newpost.rb, CNAME ]
-baseurl: "/"
+baseurl: "http://heroshane.github.io/blog1/"
 toggleicon: /imges/toggle.png
 
 author:
