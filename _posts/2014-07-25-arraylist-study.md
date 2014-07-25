@@ -6,6 +6,7 @@ categories:
 tags:
     - java
     - ArrayList
+excerpt: 关于ArrayList的实现原理
 ---
 
 ## 转载说明
