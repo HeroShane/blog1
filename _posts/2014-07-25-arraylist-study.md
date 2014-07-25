@@ -17,13 +17,13 @@ excerpt: 关于ArrayList的实现原理
 
 对于ArrayList而言，它实现List接口、底层使用数组保存所有元素。其操作基本上是对**数组**的操作。下面我们来分析ArrayList的源代码
 
-1. 底层使用数组实现：
+* 底层使用数组实现：
 
 {% highlight java %}
 private transient Object[] elementData;  
 {% endhighlight %}
 
-2. 构造方法： 
+* 构造方法： 
 
 ArrayList提供了三种方式的构造器，可以*构造一个默认初始容量为10的空列表*、*构造一个指定初始容量的空列表*以及*构造一个包含指定collection的元素的列表*，这些元素按照该collection的迭代器返回它们的顺序排列的。
 
@@ -48,7 +48,7 @@ public ArrayList(Collection<? extends E> c) {
 }
 {% endhighlight %}
 
-3. 存储： 
+* 存储： 
  
 ArrayList提供了`set(int index, E element)` -- `add(E e)` -- `add(int index, E element)` -- `addAll(Collection<? extends E> c)` -- `addAll(int index, Collection<? extends E> c)`这些添加元素的方法。
 
@@ -135,7 +135,7 @@ public boolean addAll(int index, Collection<? extends E> c) {
 }
 {% endhighlight %}
 
-4. 读取：
+* 读取：
 
 {% highlight java %}
 // 返回此列表中指定位置上的元素。
@@ -146,7 +146,7 @@ public E get(int index) {
 }
 {% endhighlight %}
 
-5. 删除：
+* 删除：
 
 ArrayList提供了根据下标或者指定对象两种方式的删除功能。
 
@@ -191,7 +191,7 @@ public boolean remove(Object o) {
 }
 {% endhighlight %}
 
-6. 调整数组容量： 
+* 调整数组容量： 
 
 从上面介绍的向ArrayList中存储元素的代码中，我们看到，每当向数组中添加元素时，都要去检查添加后元素的个数是否会超出当前数组的长度，如果超出，数组将会进行扩容，以满足添加数据的需求。数组扩容通过一个公开的方法`ensureCapacity(int minCapacity)`来实现。在实际添加大量元素前，我也可以使用ensureCapacity来手动增加ArrayList实例的容量，以减少递增式再分配的数量。
 
