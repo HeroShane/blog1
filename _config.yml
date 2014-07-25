@@ -11,16 +11,17 @@ gems:
 permalink: /:year/:month/:day/:title
 
 # Setup
+#url: http://heroshane.github.io/blog1
 title: Shane Blog
 tagline: 'just a blog'
 description: '这是shane的博客<a href="#" target="_blank">@...</a>，关注<a href="/tag/#tmp1">tmp1</a>，<a href="/category/#tmp2">tmp2</a>以及<a href="/category/#tmp3">tmp3</a>。'
-url: http://heroshane.github.io/blog1
-domain: heroshane.github.io/blog1
+url: http://herozky.info/
+domain: herozky.info
 twitterID: HeroShane
 timezone: Asia/Shanghai
-subscribe: http://heroshane.github.io/blog1/atom.xml
+subscribe: http://herozky.info/atom.xml
 exclude: [ README.md, newpost.rb, CNAME ]
-baseurl: "http://heroshane.github.io/blog1/"
+baseurl: "http://herozky.info/"
 toggleicon: /imges/toggle.png
 
 author:
