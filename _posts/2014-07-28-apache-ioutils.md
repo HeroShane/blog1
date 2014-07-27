@@ -5,7 +5,7 @@ categories:
     - java
 tags:
     - java
-    - FileUtils
+    - IOUtils
 excerpt: Apache IOUtils方法整理
 ---
 
