@@ -54,6 +54,15 @@ html {
   line-height: 1.5;
 }
 
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; width: 100%; 
+}
+
+th { 
+  text-align: inherit; 
+}
+
 @media (min-width: 38em) {
   html {
     font-size: 16px;
