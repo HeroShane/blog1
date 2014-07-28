@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Google Guava] 不可变集合
+title: GoogleGuava不可变集合
 categories:
     - Guava
 tags:
