@@ -37,3 +37,15 @@ img {
   left: -2.5em;
 }
 }
+
+table { 
+  width: 680px; 
+}
+
+table th, table td { 
+  border: 1px solid #ddd; padding: 5px 10px; 
+}
+
+table th { 
+  background: #f8f8f8; 
+}
