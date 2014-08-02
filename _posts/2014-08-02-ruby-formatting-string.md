@@ -4,7 +4,7 @@ title: Ruby的格式化字符串总结
 categories:
     - Ruby
 tags:
-    - ruby
+    - ruby基础
 excerpt: Ruby的格式化字符串    
 ---
 
