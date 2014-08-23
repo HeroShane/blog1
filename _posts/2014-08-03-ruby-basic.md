@@ -739,7 +739,7 @@ end
 
 puts my_sum(1,2,3,4) # val 變數就是 [1,2,3,4]
 # 輸出 10
-{% endhighlight %}
+
 def my_print(a, b, options)
     puts a
     puts b
