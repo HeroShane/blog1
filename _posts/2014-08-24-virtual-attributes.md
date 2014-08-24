@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 格式示范
+title: rails虚拟属性
 categories:
     - ror
 tags:
